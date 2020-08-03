@@ -5,9 +5,10 @@
 }
 body{
 	font-family: sans-serif;
-	height: 1000px;
+	height: 10000px;
 	width: 100%;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
 	background:pink;
 }
 .img-bg{
@@ -23,7 +24,6 @@ body{
 }
 .img-bg img{
 	width: 70%;
-	margin-right: ;
 	right: 0px;
 	height: 105vh;
 	margin-top: 29vh;
@@ -34,8 +34,13 @@ body{
 	font-size: 90px;
 }
 .name h2{
-	padding-left: 100px;
+	padding-left: 0px;
 	color:#fff;
 	text-shadow:orange 1px 0 10px;
 	font-family: 'Lobster', cursive;
+}
+@media screen and (max-width: 600px){
+ .name h2{
+ 	font-size: 80px;
+ }
 }
