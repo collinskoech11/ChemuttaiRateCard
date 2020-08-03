@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	height: 1000px;
+	width: 100%;
+	overflow: hidden;
+	background:pink;
+}
+.img-bg{
+	width:100%;
+	margin-top: -30vh;
+	margin-right: -30%;
+	right: 0px;
+	position: absolute;
+	height: 130vh;
+	border:1px solid #000;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.img-bg img{
+	width: 70%;
+	margin-right: ;
+	right: 0px;
+	height: 105vh;
+	margin-top: 29vh;
+}
+.name{
+	top:35%;
+	position: absolute;
+	font-size: 90px;
+}
+.name h2{
+	padding-left: 100px;
+	color:#fff;
+	text-shadow:orange 1px 0 10px;
+	font-family: 'Lobster', cursive;
+}
