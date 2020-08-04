@@ -12,6 +12,12 @@ body{
 	background:pink;
 	
 }
+@media screen and (max-width: 800px){
+	body{
+		width: 100%;
+		overflow-x:hidden;
+	}
+}
 .top-container{
 	width: 160%;
 	height: auto;
@@ -55,18 +61,12 @@ body{
 	text-shadow:orange 1px 0 10px;
 	font-family: 'Lobster', cursive;
 }
-@media screen and (max-width: 800px){
-	body{
-		width: 100%;
-		overflow:hidden;
-	}
-}
 @media screen and (max-width: 600px){
  .img-bg{
  	height: 100vh;
  }
  .name{
- 	margin-top: 1vh;
+ 	top:45%;
  }
  .name h2{
  	font-size: 80px;
