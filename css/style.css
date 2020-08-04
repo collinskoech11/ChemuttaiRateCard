@@ -5,11 +5,16 @@
 }
 body{
 	font-family: sans-serif;
-	height: 10000px;
+	height: auto;
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
 	background:pink;
+	
+}
+.top-container{
+	width: 100%;
+	height: auto;
 }
 .img-bg{
 	width:100%;
@@ -18,13 +23,13 @@ body{
 	right: 0px;
 	position: absolute;
 	height: 130vh;
-	border:1px solid #000;
 	overflow: hidden;
 	border-radius: 50%;
+	box-shadow: 5px  10px 5px 5px orange;
 }
 .img-bg img{
-	width: 70%;
-	right: 0px;
+	width: 75%;
+	
 	height: 105vh;
 	margin-top: 29vh;
 }
@@ -40,7 +45,47 @@ body{
 	font-family: 'Lobster', cursive;
 }
 @media screen and (max-width: 600px){
+ .name{
+ 	top:45%;
+ }
  .name h2{
  	font-size: 80px;
  }
+}
+.content{
+	position: absolute;
+	margin-top: 120vh;
+	width: 100%;
+	height: 80vh;
+}
+.content .title{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 50px;
+	margin-bottom: 50px;
+	list-style: none;
+	text-align: center;
+	align-items: center;
+}
+.rainbow{
+	 background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.33, #f2f), color-stop(0.6, #22f), color-stop(1, #2ff) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.33, #f2f), color-stop(0.6, #22f), color-stop(1, #2ff) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.content .title  a{
+	text-decoration: none;
+}
+.content .title img{
+	margin-bottom: -15px;
+}
+.content .section{
+	align-items: center;
+	text-align: center;
+	font-size: 40px;
+}
+.content .section h5{
+	padding-top: 50px;
 }
