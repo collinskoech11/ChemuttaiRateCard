@@ -13,34 +13,44 @@ body{
 	
 }
 .top-container{
-	width: 100%;
+	width: 170%;
 	height: auto;
+	display: inline-block;
+}
+.bottom-container{
+	width: 100%;
+	position: absolute;
 }
 .img-bg{
-	width:100%;
+	width:50%;
 	margin-top: -30vh;
-	margin-right: -30%;
+	margin-left: -30%;
 	right: 0px;
-	position: absolute;
+	float: left;
 	height: 130vh;
 	overflow: hidden;
 	border-radius: 50%;
+	z-index: -3;
 	box-shadow: 5px  10px 5px 5px orange;
+	
 }
 .img-bg img{
-	width: 75%;
-	
+	width: 100%;
 	height: 105vh;
 	margin-top: 29vh;
+	z-index: -3;
 }
 .name{
-	top:35%;
-	position: absolute;
+	margin-top:35vh;
+	width: 50%;
 	font-size: 90px;
+	float: left;
+	z-index: 3;
 }
 .name h2{
 	padding-left: 0px;
 	color:#fff;
+	z-index: 3;
 	text-shadow:orange 1px 0 10px;
 	font-family: 'Lobster', cursive;
 }
@@ -53,10 +63,9 @@ body{
  }
 }
 .content{
-	position: absolute;
-	margin-top: 120vh;
+	position: relative;
 	width: 100%;
-	height: 80vh;
+	height: auto;
 }
 .content .title{
 	font-weight: bold;
@@ -75,7 +84,7 @@ body{
   -webkit-background-clip: text;
   background-clip: text;
 }
-.content .title  a{
+.content   a{
 	text-decoration: none;
 }
 .content .title img{
@@ -88,4 +97,6 @@ body{
 }
 .content .section h5{
 	padding-top: 50px;
+	color: #fff;
+	text-shadow:red 1px 0 10px;
 }
